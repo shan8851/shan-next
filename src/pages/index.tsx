@@ -1,4 +1,5 @@
 import { About } from "@/components/About";
+import { ContactSection } from "@/components/ContactSection";
 import { Hero } from "@/components/Hero";
 import { Newsletter } from "@/components/Newsletter";
 import { Projects } from "@/components/Projects";
@@ -20,6 +21,7 @@ const Home: NextPage = () => {
         <Services />
         <Newsletter />
         <Projects />
+        <ContactSection />
       </main>
     </>
   );
