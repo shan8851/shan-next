@@ -1,8 +1,7 @@
 import Image from "next/image";
 import { FC } from "react";
-import Logo from '../assets/punk.png'
+import Logo from '@/assets/punk.png'
 import Link from "next/link";
-
 
 export const Hero: FC = () => (
     <div className="hero min-h-96 bg-base-200 py-56">
