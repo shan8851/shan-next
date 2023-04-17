@@ -12,7 +12,7 @@ export const Footer: FC = () => (
         <span className="footer-title">Services</span>
         <Link href="/webdev" className="link link-hover">Web Development</Link>
         <Link href="/consulting" className="link link-hover">Consulting</Link>
-        <a href="/mentoring" className="link link-hover">Mentoring</a>
+        <Link href="/mentoring" className="link link-hover">Mentoring</Link>
       </div>
       <div>
         <span className="footer-title">Me</span>
