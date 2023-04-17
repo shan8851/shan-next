@@ -1,0 +1,5 @@
+export const TWITTER_LINK = "https://twitter.com/shan8851"
+export const CALENDLY_LINK = "https://calendly.com/asamshan/30min"
+export const LINKEDIN_LINK = "https://www.linkedin.com/in/asamshan/"
+export const TECH_LEAP_LINK = "https://techleap.beehiiv.com/subscribe"
+export const REACT_ROLES_LINK = "htt[s://reactroles.com"

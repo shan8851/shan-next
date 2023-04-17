@@ -1,3 +1,5 @@
+import { type Config } from "tailwindcss";
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -14,5 +16,5 @@ module.exports = {
       },
     },
   },
-  plugins: [],
-}
+    plugins: [require("@tailwindcss/typography"), require("daisyui")],
+} satisfies Config;
