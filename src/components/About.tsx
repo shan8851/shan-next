@@ -4,7 +4,7 @@ import { FC } from "react";
 
 export const About: FC = () => (
   <div className="py-24 flex flex-col w-full max-w-3xl mx-auto px-4">
-  <h1 className="mb-6 text-3xl font-extrabold lg:text-4xl text-center">About me</h1>
+  <h1 className="mb-6 text-3xl font-extrabold lg:text-4xl text-center">🙋🏽‍♂️ About me</h1>
     <p className="mb-6 text-md font-normal lg:text-lg">
       👨‍💻 Hey again! I&apos;m Shan, a web3 enthusiast, modern web development expert, and mentor. With years of experience in the tech world, I&apos;ve developed a deep passion for all things blockchain, cryptocurrency, and cutting-edge development.
     </p>

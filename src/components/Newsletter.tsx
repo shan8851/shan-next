@@ -2,7 +2,7 @@ import { TECH_LEAP_LINK } from "@/constants";
 import { FC } from "react";
 
 export const Newsletter: FC = () => (
-  <div className="flex flex-col items-center justify-center w-full bg-accent py-24 px-3">
+  <div className="flex flex-col items-center justify-center w-full bg-secondary py-24 px-3">
     <div className="max-w-3xl mx-auto flex flex-col gap-6 items-center justify-center">
       <h3 className="mb-6 text-3xl font-extrabold lg:text-4xl text-center max-w-xl">🚀 TechLeap: Your Weekly Guide to Thriving in Tech</h3>
           <p className="mb-6 text-md font-normal lg:text-lg  ">

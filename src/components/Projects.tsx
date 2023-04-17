@@ -15,7 +15,7 @@ export const Projects: FC = () => (
             <div className="card-body h-72 max-h-72">
               <h2 className="card-title">
                 {project.title}
-                {project.tag && <div className="badge badge-secondary">{project.tag}</div>}
+                {project.tag && <div className="badge badge-accent">{project.tag}</div>}
 
               </h2>
               <p>{project.description}</p>
