@@ -1,6 +1,7 @@
 import { About } from "@/components/About";
 import { Hero } from "@/components/Hero";
 import { Newsletter } from "@/components/Newsletter";
+import { Projects } from "@/components/Projects";
 import { Services } from "@/components/Services";
 import { type NextPage } from "next";
 import Head from "next/head";
@@ -18,6 +19,7 @@ const Home: NextPage = () => {
         <About />
         <Services />
         <Newsletter />
+        <Projects />
       </main>
     </>
   );
