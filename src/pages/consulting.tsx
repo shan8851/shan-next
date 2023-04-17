@@ -17,7 +17,7 @@ const Consulting: NextPage = () => {
           <p className="mb-6 text-md font-normal lg:text-lg">Hey there! I&apos;m Shan, and I love helping businesses make the most of modern technology. With my experience in web3, crypto, blockchain, and a range of web development frameworks, I&apos;m here to guide you through the ever-evolving digital landscape and find the right solutions to drive your success.</p>
           <h2 className="mb-2 text-xl lg:text-2xl font-bold">Consulting Services I Offer</h2>
           <h3 className="mb-2 text-lg lg:text-xl font-bold">🌉 Bridging the Knowledge Gap</h3>
-          <p className="mb-6 text-md font-normal lg:text-lg">Want to scale your business and stay ahead of the competition? I'll work with you to identify growth opportunities and develop a solid roadmap to achieve your goals.</p>
+          <p className="mb-6 text-md font-normal lg:text-lg">Want to scale your business and stay ahead of the competition? I&apos;ll work with you to identify growth opportunities and develop a solid roadmap to achieve your goals.</p>
           <h3 className="mb-2 text-lg lg:text-xl font-bold">🔐 Security & Compliance</h3>
           <p className="mb-6 text-md font-normal lg:text-lg">Keeping your digital assets safe and compliant is crucial in today&apos;s interconnected world. I&apos;ll help you identify potential vulnerabilities and implement best practices to secure your online presence.</p>
           <h3 className="mb-2 text-lg lg:text-xl font-bold">🧪 Innovation & Experimentation</h3>
