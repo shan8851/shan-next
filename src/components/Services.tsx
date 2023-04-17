@@ -1,8 +1,8 @@
 import { FC } from "react";
 
 export const Services: FC = () => (
-  <div className="flex flex-col items-center justify-center w-full bg-base-200">
-    <div className="max-w-8xl mx-auto p-24">
+  <div className="flex flex-col items-center justify-center w-full bg-base-200 px-4 py-24">
+    <div className="max-w-8xl mx-auto">
       <h1 className="mb-6 text-3xl font-extrabold lg:text-4xl text-center">How can I help you?</h1>
       <div className="flex items-center justify-center w-full flex-wrap gap-8">
         <div className="card w-96 bg-base-100 shadow-xl">
