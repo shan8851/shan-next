@@ -45,7 +45,7 @@ const Contact: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <div className="p-16 flex flex-col align-center items-center w-screen justify-center max-w-3xl mx-auto">
+        <div className="p-4 md:p-8 lg:p-16 flex flex-col align-center items-center w-screen justify-center max-w-3xl mx-auto">
           <h1 className="mb-4 text-3xl font-extrabold lg:text-4xl ">Let&apos;s Chat!</h1>
           <p className="mb-6 text-md font-normal lg:text-lg  ">
             Hey there! Thanks for stopping by my digital playground. If you&apos;re itching to chat about web3, crypto, modern web development, or just life in general, I&apos;m all ears. Let&apos;s connect and share ideas, collaborate, or even embark on a new adventure together. Fill out the contact form below, and I&apos;ll be in touch faster than you can say &rdquo;ReactRoles.&rdquo; If you prefer a face-to-face conversation, <a target="_blank"
