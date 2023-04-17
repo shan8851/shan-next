@@ -8,7 +8,7 @@ export const Hero: FC = () => (
     <div className="hero min-h-96 bg-base-200 py-56">
       <div className="hero-content flex-col lg:flex-row">
         <div className="w-96 mask mask-hexagon">
-          <Image src={Logo} alt="logo" height={360} />
+          <Image src={Logo} alt="logo" height={720} />
         </div>
         <div>
           <h1 className="text-5xl font-bold">👋 Hey, I&apos;m Shan!</h1>

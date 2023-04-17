@@ -1,22 +1,41 @@
 import { FC } from "react";
 
 export const Services: FC = () => (
-  <div className="flex flex-col items-center justify-center w-full max-w-6xl bg-base-200">
-    <h1 className="mb-4 text-3xl font-extrabold lg:text-4xl ">Services</h1>
-    <div className="flex jusify-center items-center w-full flex-wrap">
-      <div className="card w-96 bg-base-100 shadow-xl">
-  <div className="card-body">
-    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-32 h-32">
-  <path stroke-linecap="round" stroke-linejoin="round" d="M9 17.25v1.007a3 3 0 01-.879 2.122L7.5 21h9l-.621-.621A3 3 0 0115 18.257V17.25m6-12V15a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 15V5.25m18 0A2.25 2.25 0 0018.75 3H5.25A2.25 2.25 0 003 5.25m18 0V12a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 12V5.25" />
-</svg>
-
-    <h2 className="card-title">Card title!</h2>
-    <p>If a dog chews shoes whose shoes does he choose?</p>
-    <div className="card-actions justify-end">
-      <button className="btn btn-primary">Buy Now</button>
-    </div>
-  </div>
-</div>
+  <div className="flex flex-col items-center justify-center w-full bg-base-200">
+    <div className="max-w-8xl mx-auto p-24">
+      <h1 className="mb-6 text-3xl font-extrabold lg:text-4xl text-center">How can I help you?</h1>
+      <div className="flex items-center justify-center w-full flex-wrap gap-8">
+        <div className="card w-96 bg-base-100 shadow-xl">
+          <div className="card-body">
+            <h2 className="text-7xl self-center mb-2">🖥️</h2>
+            <h3 className="card-title">Web Development</h3>
+            <p> Expertise in React, Next.js, and modern web development to bring your ideas to life. From building responsive websites to creating user-friendly applications, I&apos;ve got you covered.</p>
+            <div className="card-actions justify-center">
+              <button className="btn btn-primary">Learn more</button>
+            </div>
+          </div>
+        </div>
+        <div className="card w-96 bg-base-100 shadow-xl">
+          <div className="card-body">
+            <h2 className="text-7xl self-center mb-2">💼</h2>
+            <h3 className="card-title">Consulting & Advising</h3>
+            <p> With a wealth of experience in web3, crypto, and blockchain, I&apos;m here to help your business thrive. Let&apos;s strategise, identify opportunities, and tackle challenges together.</p>
+            <div className="card-actions justify-center">
+              <button className="btn btn-primary">Learn more</button>
+            </div>
+          </div>
+        </div>
+        <div className="card w-96 bg-base-100 shadow-xl">
+          <div className="card-body">
+            <h2 className="text-7xl self-center mb-2">🌱</h2>
+            <h3 className="card-title">Mentoring</h3>
+            <p>Passionate about guiding aspiring developers and helping them excel in their careers. From landing that first job to maximizing earnings, I&apos;ll share valuable insights and tips.</p>
+            <div className="card-actions justify-center">
+              <button className="btn btn-primary">Learn more</button>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 )
