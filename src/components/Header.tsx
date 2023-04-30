@@ -3,13 +3,14 @@ import Link from "next/link";
 import { type FC } from "react";
 import Logo from '@/assets/punk.png'
 import { TECH_LEAP_LINK } from "@/constants";
+import ThemeSelector from "./ThemeSelector";
 
 export const Header: FC = () => {
 
   return (
     <>
     <div className="flex justify-center bg-accent py-2">
-      <a href={TECH_LEAP_LINK} className="link text-bold">Looking to get into tech? Subscribe to my weekly newsletter</a>
+      <a href={TECH_LEAP_LINK} className="link text-bold text-neutral">Looking to get into tech? Subscribe to my weekly newsletter</a>
     </div>
       <div className="navbar bg-neutral text-neutral-content">
         <div className="navbar-start">
@@ -54,7 +55,9 @@ export const Header: FC = () => {
             <li><Link href="/contact">Contact</Link></li>
           </ul>
         </div>
+
         <div className="navbar-end">
+         <ThemeSelector />
           <Image src={Logo} alt="logo" height={45} />
         </div>
       </div>

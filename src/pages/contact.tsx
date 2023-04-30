@@ -62,7 +62,7 @@ const Contact: NextPage = () => {
               {...register("botcheck")}
             />
             <div className="form-control w-full">
-              <label className={`input-group input-group-vertical border-4 ${errors.name ? 'border-error' : 'border-black'}`}>
+              <label className={`input-group input-group-vertical border-4 ${errors.name ? 'border-error' : 'border-neutral'}`}>
                 <span className="py-2">What shall we call you?</span>
                 <input
                   type="text"
@@ -81,7 +81,7 @@ const Contact: NextPage = () => {
               )}
             </div>
             <div className="form-control w-full">
-              <label htmlFor="email_address" className={`input-group input-group-vertical border-4 ${errors.email ? 'border-error' : 'border-black'}`}>
+              <label htmlFor="email_address" className={`input-group input-group-vertical border-4 ${errors.email ? 'border-error' : 'border-neutral'}`}>
                 <span className="py-2">What&apos;s your email?</span>
                 <input
                   id="email_address"
@@ -104,7 +104,7 @@ const Contact: NextPage = () => {
               )}
             </div>
             <div className="form-control w-full">
-              <label className={`input-group input-group-vertical border-4 ${errors.message ? 'border-error' : 'border-black'}`}>
+              <label className={`input-group input-group-vertical border-4 ${errors.message ? 'border-error' : 'border-neutral'}`}>
                 <span className="py-2">What&apos;s on your mind?</span>
 
                 <textarea

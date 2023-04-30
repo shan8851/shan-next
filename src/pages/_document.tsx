@@ -2,7 +2,7 @@ import { Html, Head, Main, NextScript } from "next/document";
 
 export default function Document() {
   return (
-    <Html data-theme="cyberpunk">
+    <Html data-theme='cyberpunk'>
       <Head>
         {/* Open Graph tags */}
         <meta property="og:title" content="Shan8851" />
