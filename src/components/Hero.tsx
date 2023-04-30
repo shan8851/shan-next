@@ -15,7 +15,6 @@ export const Hero: FC = () => (
         <div className="flex gap-4">
           <Link href="/now" className="btn btn-primary">Explore my world</Link>
           <Link href="/contact" className="btn btn-secondary">Let&apos;s Connect</Link>
-          <button onClick={() => localStorage.setItem('theme', 'black')}>theme</button>
         </div>
       </div>
     </div>
