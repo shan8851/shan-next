@@ -33,6 +33,7 @@ export const Header: FC = () => {
               </li>
               <li><Link href="/now">/Now</Link></li>
               <li><Link href="/contact">Contact</Link></li>
+              <li><Link href="/cv">CV</Link></li>
             </ul>
           </div>
           <Link href="/" className="btn btn-ghost normal-case text-xl">@Shan8851</Link>
@@ -53,6 +54,7 @@ export const Header: FC = () => {
             </li>
             <li><Link href="/now">/Now</Link></li>
             <li><Link href="/contact">Contact</Link></li>
+            <li><Link href="/cv">CV</Link></li>
           </ul>
         </div>
 

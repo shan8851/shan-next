@@ -27,6 +27,7 @@ export const Footer: FC = () => {
             <span className="footer-title">Me</span>
             <Link href="/now" className="link link-hover">/Now</Link>
             <Link href="/contact" className="link link-hover">Contact</Link>
+            <Link href="/cv" className="link link-hover">CV</Link>
           </div>
           <div>
             <span className="footer-title">Socials</span>
