@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { useState, type FC } from "react";
 import Logo from "@/assets/punk.png";
-import { TECH_LEAP_LINK } from "@/constants";
+import { LINKEDIN_LINK, TECH_LEAP_LINK, TWITTER_LINK } from "@/constants";
 import Link from "next/link";
 
 
@@ -31,8 +31,8 @@ export const Footer: FC = () => {
           </div>
           <div>
             <span className="footer-title">Socials</span>
-            <a className="link link-hover">Twitter</a>
-            <a className="link link-hover">LinkedIn</a>
+            <a href={TWITTER_LINK} className="link link-hover">Twitter</a>
+            <a href={LINKEDIN_LINK} className="link link-hover">LinkedIn</a>
           </div>
           <div>
             <span className="footer-title">Newsletter</span>
