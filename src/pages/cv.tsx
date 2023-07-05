@@ -27,15 +27,14 @@ const Cv: NextPage = () => {
               experience.</li>
             <li>Received high praise from users and stakeholders for my work on the pixel-perfect front-ends and easy-to-use web3
               integrations.</li>
-            <li>Driving continued innovation in the Defi analytics space as part of this dynamic team, with Cielo set to launch a free tier in
-              April 2023.</li>
+            <li>Driving continued innovation in the Defi analytics space as part of this dynamic team. Free tier successfully launched in April 2023</li>
           </ul>
           <div className="divider" />
           <h3 className="mb-4 text-md font-extrabold lg:text-xl">🍜 Let&apos;s Eat - <span className="italic text-sm lg:text-lg">Co-Founder & CTO</span></h3>
           <ul className="list-disc">
             <li>Contributed in all stages of the technical product life cycle, including architecture, planning, development, testing,
               deployment, and maintenance.</li>
-            <li>Direct and consult on technology choices and technical direction for all 4 LE applications.</li>
+            <li>Directed and consulted on technology choices and technical direction for all 4 Let&apos;s Eat applications.</li>
             <li>Worked closely with tech leads to address tech debt and ensure timely delivery of high-quality solutions that met company
               SLAs.</li>
             <li>Identified and resolved issues related to hardware, software, and network infrastructure that impacted operations of an
@@ -46,7 +45,7 @@ const Cv: NextPage = () => {
           <ul className="list-disc">
             <li>Built a custom CMS with Typescript and GraphQL that automated content across various locations and channels, enabling
               the platform to scale from 1 location to 4 in 6 months.</li>
-            <li>Built internal tools and protocols for a SaaS supporting multiple admin permissions and levels in preparation for LoT
+            <li>Built internal tools and protocols for a SaaS supporting multiple admin permissions and levels in preparation for Library of Things
               licensing their software.</li>
             <li>Supported development team in creating pipelines for continuous integration and continuous delivery using Gitlab alongside
               Docker.
@@ -69,7 +68,7 @@ const Cv: NextPage = () => {
           <h3 className="mb-4 text-md font-extrabold lg:text-xl">🧑‍🏫️ Coding Coach & The Mentoring Club - <span className="italic text-sm lg:text-lg">Mentor</span></h3>
           <ul className="list-disc">
             <li>Provided mentorship and training on topics including React Hooks, state management, and portfolio development to help new developers break into the software industry.</li>
-            <li>Discuss and help plan overall strategy for attacking learning and aggressively hunting for the first job. Once secured, I would work with mentees to develop a strategy to accelerate the early years of their career.</li>
+            <li>Discuss and help plan overall strategy for attacking learning and aggressively hunting for the first job. Once secured, I work with mentees to develop a strategy to accelerate the early years of their career.</li>
             <li>Five former mentees are now employed in the industry.
             </li>
           </ul>
