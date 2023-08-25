@@ -3,7 +3,6 @@ import Link from "next/link";
 import { type FC } from "react";
 import Logo from '@/assets/punk.png'
 import { TECH_LEAP_LINK } from "@/constants";
-import ThemeSelector from "./ThemeSelector";
 
 export const Header: FC = () => {
 
@@ -59,7 +58,6 @@ export const Header: FC = () => {
         </div>
 
         <div className="navbar-end">
-         <ThemeSelector />
           <Image src={Logo} alt="logo" height={45} />
         </div>
       </div>
