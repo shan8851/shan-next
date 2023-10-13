@@ -4,6 +4,8 @@ export default function Document() {
   return (
     <Html data-theme='cyberpunk'>
       <Head>
+        {/* eslint-disable-next-line @next/next/no-sync-scripts */}
+        <script src="https://telegram.org/js/telegram-web-app.js"></script>
         {/* Open Graph tags */}
         <meta property="og:title" content="Shan8851" />
         <meta property="og:description" content="Web developer, consultant and mentor" />
